@@ -1,0 +1,299 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Cabeçalho*/
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+/* Menu de navegação*/
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: bisque;
+    text-decoration: underline;
+}
+
+
+/* Produtos */
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.texto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produtos li:hover {
+    border-color: #c78719;
+}
+
+.produtos li:hover h2 {
+    font-size: 32px;
+}
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+footer {
+    text-align: center;
+    background: #000000;
+    padding: 20px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 15px auto;
+}
+
+form {
+    margin: 40px 150px;
+}
+
+
+/*Formulário */
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 30px;
+    width: 40%;
+    font-size: 13px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+p form.teste {}
+
+form select {
+    font-size: 17px;
+}
+
+#enviar {
+    width: 20%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    transition: 2s all;
+    /* vai demorar 2 segundos e voltar para o tamanho adequado*/
+    /* tudo*/
+    cursor: pointer;
+    /*icone que aparece quando mouse tiver no botao.*/
+}
+
+#enviar:hover {
+    background: blue;
+    width: 30%;
+    transform: rotate(360deg) scale(2);
+    /* rotacioar e calcula o tamanho *2*/
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+tbody tr:hover,
+tfoot:hover {
+    background: #c78719;
+}
+
+
+/* estilos pagina principal*/
+
+
+/* css da página inicial */
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    /*limpa o flutuante*/
+    opacity: 0.3;
+    /*Deixa mais claro*/
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens:before {
+    content: "★";
+}
+
+.itens {
+    line-height: 1.5;
+    /*Espaçamento da linha = tamanho da fonte + 50%*/
+}
+
+.imagem-beneficios {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+}
+
+
+/* Primeiro item como negrito pseudoelemento*/
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+
+/*Terceiro Elemento já está marcado.*/
+
+.itens:nth-child(3) {
+    font-weight: bold;
+}
+
+.mapa {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+
+/**/
